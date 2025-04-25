@@ -1,0 +1,18 @@
+2025/03/24-21:29:51.433 f88 Creating DB C:\Users\user\AppData\Local\Temp\flutter_tools.20b8f7b0\flutter_tools_chrome_device.a4a70b8e\Default\IndexedDB\http_localhost_57697.indexeddb.leveldb since it was missing.
+2025/03/24-21:29:51.958 f88 Reusing MANIFEST C:\Users\user\AppData\Local\Temp\flutter_tools.20b8f7b0\flutter_tools_chrome_device.a4a70b8e\Default\IndexedDB\http_localhost_57697.indexeddb.leveldb/MANIFEST-000001
+2025/03/24-21:29:56.085 30e8 Level-0 table #5: started
+2025/03/24-21:29:56.358 30e8 Level-0 table #5: 827 bytes OK
+2025/03/24-21:29:56.629 30e8 Delete type=0 #3
+2025/03/24-21:29:56.629 30e8 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/24-22:09:12.070 30e8 Level-0 table #7: started
+2025/03/24-22:09:12.199 30e8 Level-0 table #7: 5972 bytes OK
+2025/03/24-22:09:12.423 30e8 Delete type=0 #4
+2025/03/24-22:09:12.437 30e8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/24-22:09:12.452 30e8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00D\x00D\x005\x00a\x001\x00A\x005\x009\x00-\x00t\x00C\x00M\x00H\x00_\x007\x00X\x001\x004\x00A\x00l\x00u\x00A\x009\x00g\x00q\x00t\x00B\x00c\x00I\x00h\x006\x00U\x00o\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 210 : 1
+2025/03/24-22:09:12.452 30e8 Compacting 1@1 + 1@2 files
+2025/03/24-22:09:12.825 30e8 Generated table #8@1: 50 keys, 3758 bytes
+2025/03/24-22:09:12.825 30e8 Compacted 1@1 + 1@2 files => 3758 bytes
+2025/03/24-22:09:12.974 30e8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/24-22:09:12.974 30e8 Delete type=2 #5
+2025/03/24-22:09:12.974 30e8 Delete type=2 #7
+2025/03/24-22:09:12.976 30e8 Manual compaction at level-1 from '\x00\x04\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00D\x00D\x005\x00a\x001\x00A\x005\x009\x00-\x00t\x00C\x00M\x00H\x00_\x007\x00X\x001\x004\x00A\x00l\x00u\x00A\x009\x00g\x00q\x00t\x00B\x00c\x00I\x00h\x006\x00U\x00o\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 210 : 1 .. (end); will stop at (end)

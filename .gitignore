@@ -1,0 +1,19 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# IDE and other editor folders
+.vscode/
+.idea/
+
+# Node.js (if applicable)
+node_modules/
+
+# Flask
+instance/
