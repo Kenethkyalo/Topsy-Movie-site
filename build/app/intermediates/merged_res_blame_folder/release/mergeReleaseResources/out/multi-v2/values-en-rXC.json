@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeReleaseResources-32:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.android.app-mergeReleaseResources-33:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\0dd5332ed3d996d1bf8adc3693d92c9d\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-en-rXC\\values-en-rXC.xml",
@@ -31,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\349dfd35b49cf277f03b6c2081c53737\\transformed\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\ad91708de74e101d067f1db666ec1fd1\\transformed\\browser-1.8.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

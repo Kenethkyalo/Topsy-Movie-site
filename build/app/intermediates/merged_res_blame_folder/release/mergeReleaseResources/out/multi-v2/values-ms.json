@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeReleaseResources-32:/values-ms/values-ms.xml",
+            "outputFile": "com.example.android.app-mergeReleaseResources-33:/values-ms/values-ms.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\ab11fde6ea95edd9c0b58e53225fcc72\\transformed\\jetified-play-services-base-18.0.1\\res\\values-ms\\values.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\142ac81eabe97050f990ad9aa7d4896b\\transformed\\jetified-play-services-base-18.1.0\\res\\values-ms\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -18,23 +18,6 @@
                         "startOffsets": "1032,1138,1311,1441,1547,1719,1851,1971,2224,2409,2518,2693,2828,2999,3174,3241,3305",
                         "endColumns": "105,172,129,105,171,131,119,106,184,108,174,134,170,174,66,63,82",
                         "endOffsets": "1133,1306,1436,1542,1714,1846,1966,2073,2404,2513,2688,2823,2994,3169,3236,3300,3383"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\349dfd35b49cf277f03b6c2081c53737\\transformed\\browser-1.4.0\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,160,260,379",
-                        "endColumns": "104,99,118,101",
-                        "endOffsets": "155,255,374,476"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3388,3493,3593,3712",
-                        "endColumns": "104,99,118,101",
-                        "endOffsets": "3488,3588,3707,3809"
                     }
                 },
                 {
@@ -79,6 +62,23 @@
                         "startOffsets": "289,384,486,583,693,799,917,3814",
                         "endColumns": "94,101,96,109,105,117,114,100",
                         "endOffsets": "379,481,578,688,794,912,1027,3910"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\ad91708de74e101d067f1db666ec1fd1\\transformed\\browser-1.8.0\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,160,260,379",
+                        "endColumns": "104,99,118,101",
+                        "endOffsets": "155,255,374,476"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3388,3493,3593,3712",
+                        "endColumns": "104,99,118,101",
+                        "endOffsets": "3488,3588,3707,3809"
                     }
                 }
             ]

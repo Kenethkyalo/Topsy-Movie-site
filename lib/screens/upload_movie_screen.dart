@@ -25,7 +25,7 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
   String _selectedCategory = "movies"; // Default to movies
   final DatabaseReference databaseRef = FirebaseDatabase.instance.ref();
   final String _apiUrl =
-      "http://127.0.0.1:5000/search"; // Ensure the API is running
+      "https://web-production-97ce2.up.railway.app/search"; // Ensure the API is running
 
   Future<void> _fetchMovieData() async {
     String title = _titleController.text.trim();

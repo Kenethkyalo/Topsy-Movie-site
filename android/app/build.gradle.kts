@@ -10,14 +10,14 @@ flutter {
 
 android {
     namespace = "com.example.android"
-    compileSdk = 34 // ✅ Corrected syntax
+    compileSdk = 35 // ✅ Corrected syntax
 
     ndkVersion = "27.0.12077973"
 
     defaultConfig {
         applicationId = "com.example.android"
         minSdk = 23
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
     }

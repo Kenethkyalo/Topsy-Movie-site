@@ -1,4 +1,4 @@
-com.example.android:xml/image_share_filepaths = 0x7f0f0000
+com.example.android:xml/image_share_filepaths = 0x7f0f0001
 com.example.android:styleable/SplitPairFilter = 0x7f0e000c
 com.example.android:styleable/SignInButton = 0x7f0e000b
 com.example.android:styleable/LoadingImageView = 0x7f0e000a
@@ -87,6 +87,7 @@ com.example.android:id/accessibility_custom_action_12 = 0x7f070005
 com.example.android:id/adjacent = 0x7f070026
 com.example.android:string/call_notification_answer_video_action = 0x7f0c0004
 com.example.android:id/bottomToTop = 0x7f070030
+com.example.android:xml/flutter_image_picker_file_paths = 0x7f0f0000
 com.example.android:id/action_container = 0x7f070021
 com.example.android:mipmap/ic_launcher = 0x7f0a0000
 com.example.android:id/chronometer = 0x7f070036
