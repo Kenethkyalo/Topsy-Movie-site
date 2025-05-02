@@ -635,10 +635,10 @@
       "name": "my_flutter_app",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.0"
     }
   ],
-  "generated": "2025-05-02T07:57:59.734309Z",
+  "generated": "2025-05-02T09:06:55.433385Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///C:/flutter",

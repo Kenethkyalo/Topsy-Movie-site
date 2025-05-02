@@ -17,7 +17,7 @@ COPY . .
 RUN flutter build web
 
 # Final stage: Use Nginx to serve the built app
-FROM nginx:alpine
+FROM nginx:1.25.3-alpine
 
 # Replace default nginx web content with Flutter build output
 COPY --from=build /app/build/web /usr/share/nginx/html
