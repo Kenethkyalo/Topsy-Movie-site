@@ -25,7 +25,7 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
   String _selectedCategory = "movies"; // Default to movies
   final DatabaseReference databaseRef = FirebaseDatabase.instance.ref();
   final String _apiUrl =
-      "https://web-production-97ce2.up.railway.app/search"; // Ensure the API is running
+      "https://topsymovies.onrender.com/search"; // Ensure the API is running
 
   Future<void> _fetchMovieData() async {
     String title = _titleController.text.trim();
@@ -68,28 +68,25 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
 
     if (title.isNotEmpty && _streamUrl != null) {
       DatabaseReference ref = databaseRef.child(_selectedCategory).push();
-      ref
-          .set({
-            "title": title,
-            "description": _description,
-            "release_date": _releaseDate,
-            "poster": _posterUrl,
-            "streamLink": _streamUrl,
-            "downloadLink": _downloadUrl,
-          })
-          .then((_) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text("$_selectedCategory uploaded successfully!"),
-              ),
-            );
-            Navigator.pop(context);
-          })
-          .catchError((error) {
-            ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: Text("Failed to upload: $error")));
-          });
+      ref.set({
+        "title": title,
+        "description": _description,
+        "release_date": _releaseDate,
+        "poster": _posterUrl,
+        "streamLink": _streamUrl,
+        "downloadLink": _downloadUrl,
+      }).then((_) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text("$_selectedCategory uploaded successfully!"),
+          ),
+        );
+        Navigator.pop(context);
+      }).catchError((error) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text("Failed to upload: $error")));
+      });
     }
   }
 
@@ -147,13 +144,12 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
           children: [
             DropdownButtonFormField<String>(
               value: _selectedCategory,
-              items:
-                  ["movies", "series"].map((String category) {
-                    return DropdownMenuItem<String>(
-                      value: category,
-                      child: Text(category.toUpperCase()),
-                    );
-                  }).toList(),
+              items: ["movies", "series"].map((String category) {
+                return DropdownMenuItem<String>(
+                  value: category,
+                  child: Text(category.toUpperCase()),
+                );
+              }).toList(),
               onChanged: (value) {
                 setState(() {
                   _selectedCategory = value!;
@@ -194,7 +190,6 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
                         ),
                       ),
                     const SizedBox(height: 20),
-
                     if (_titleController.text.isNotEmpty)
                       Center(
                         child: Text(
@@ -207,7 +202,6 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
                         ),
                       ),
                     const SizedBox(height: 10),
-
                     if (_description != null)
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -227,7 +221,6 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
                         ],
                       ),
                     const SizedBox(height: 10),
-
                     if (_releaseDate != null)
                       Text(
                         "Release Date: $_releaseDate",
@@ -238,7 +231,6 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
                         ),
                       ),
                     const SizedBox(height: 20),
-
                     if (_streamUrl != null)
                       Center(
                         child: ElevatedButton.icon(
@@ -252,7 +244,6 @@ class _UploadMovieScreenState extends State<UploadMovieScreen> {
                         ),
                       ),
                     const SizedBox(height: 10),
-
                     if (_downloadUrl != null)
                       Center(
                         child: ElevatedButton.icon(
